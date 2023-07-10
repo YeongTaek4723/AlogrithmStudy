@@ -5,7 +5,10 @@ using namespace std;
 int w[101], v[101], dp[101][100001];
 
 int main(){
-
+    ios_base::sync_with_stdio(false); 
+    cin.tie(NULL);                      
+    cout.tie(NULL);
+    
     int N, K;
     cin >> N >> K;
 
