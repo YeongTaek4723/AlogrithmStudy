@@ -1,0 +1,10 @@
+트리 순회문제로 다양한 방법으로 풀 수 있지만 map과 pair을 이용해서 쉽게 풀 수 있다. 
+map으로 key와 value를 받는데 value를 pair을 이용해서 트리 처럼 입력 받을 수 있다.
+
+         key
+    first   second
+
+
+1) 노드의 개수 N을 입력받고 반복문을 통해 key값인 root와 first/second값인 left/right값을 받는다. 
+1-1)map으로 만든 tree[root]에 각각 left/right값을 대입 해주고 
+2)preoder/inorder/postorder을 이용해서 각각 트리 순회의 답을 출력하면 된다.
